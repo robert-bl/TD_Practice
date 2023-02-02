@@ -9,8 +9,6 @@ export const Board = () => {
         gridArr.push(<Box i={i+1} />)
     }
 
-    let test: JSX.Element = <Box i={4} />
-
 
     return (
         <div className="board-grid">
